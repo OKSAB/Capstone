@@ -50,17 +50,17 @@ ksa-transport-safety-capstone/
 1. Open a terminal (Command Prompt, PowerShell, or a shell).
 2. Navigate to the folder where you want the project to be:
    cd /path/to/your/projects
-3. git clone https://github.com/OKSAB/capstone
-4. cd ksa-transport-safety-capstone
+3. ```git clone https://github.com/OKSAB/capstone ```
+4. ```cd capstone ```
 
 ### 3.2 Create a virtual environment and install dependencies
-1. python -m venv .venv
+1.  ```python -m venv .venv```
 2. Activate the virtual environment:
 
  - Windows (PowerShell):
-.venv\Scripts\Activate.ps1
+```.venv\Scripts\Activate.ps1```
 
  - macOS / Linux:
-source .venv/bin/activate
+```source .venv/bin/activate```
 
-3. pip install -r requirements.txt
+3. ```pip install -r requirements.txt```
