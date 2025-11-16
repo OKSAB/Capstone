@@ -40,3 +40,25 @@ ksa-transport-safety-capstone/
 ├─ figures/         # Exported charts, maps, and tables for memo and slides
 ├─ docs/            # Draft policy memo, slide outlines, and notes
 └─ README.md
+
+## 3. Initialize repository and environment
+
+### 3.1 Clone the repository
+
+1. Open a terminal (Command Prompt, PowerShell, or a shell).
+2. Navigate to the folder where you want the project to be:
+   cd /path/to/your/projects
+3. git clone https://github.com/OKSAB/capstone
+4. cd ksa-transport-safety-capstone
+
+### 3.2 Create a virtual environment and install dependencies
+1. python -m venv .venv
+2. Activate the virtual environment:
+
+ - Windows (PowerShell):
+.venv\Scripts\Activate.ps1
+
+ - source .venv/bin/activate
+source .venv/bin/activate
+
+3. pip install -r requirements.txt
