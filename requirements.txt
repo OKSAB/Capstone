@@ -1,0 +1,44 @@
+# ===========================
+# Core data analysis stack
+# ===========================
+pandas
+numpy
+matplotlib
+seaborn
+
+# ===========================
+# Notebooks & interactive work
+# ===========================
+jupyter
+jupyterlab
+ipykernel
+
+# ===========================
+# SQL / database helpers
+# (for running SQL from Python / notebooks)
+# ===========================
+SQLAlchemy
+ipython-sql
+
+# ===========================
+# File formats & IO
+# ===========================
+openpyxl      # read/write Excel files
+pyarrow       # parquet / columnar formats
+
+# ===========================
+# Geospatial (for maps, regional analysis)
+# ===========================
+geopandas
+shapely
+pyproj
+rtree
+contextily
+
+# ===========================
+# Stats & utilities
+# ===========================
+scipy
+statsmodels
+tqdm
+python-dotenv
