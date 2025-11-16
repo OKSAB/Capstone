@@ -40,6 +40,8 @@ ksa-transport-safety-capstone/
 ├─ figures/         # Exported charts, maps, and tables for memo and slides
 ├─ docs/            # Draft policy memo, slide outlines, and notes
 └─ README.md
+```
+---
 
 ## 3. Initialize repository and environment
 
@@ -58,7 +60,7 @@ ksa-transport-safety-capstone/
  - Windows (PowerShell):
 .venv\Scripts\Activate.ps1
 
- - source .venv/bin/activate
+ - macOS / Linux:
 source .venv/bin/activate
 
 3. pip install -r requirements.txt
