@@ -1,2 +1,42 @@
-# Capstone
-Python/SQL analysis for diagnosing road accident causes, regional trends, and policy solutions in Saudi Arabia’s transport network (DSC Capstone – Transportation Safety &amp; Infrastructure Optimization).
+# Transportation Safety & Infrastructure Optimization – Saudi Arabia (DSC Capstone)
+
+This repository hosts the data, Python code, and SQL scripts for a capstone project on **transportation safety and infrastructure optimization** in Saudi Arabia.
+
+**Diagnostic Question**
+
+> Diagnose the causes and propose solutions for road accidents in Saudi Arabia. Identify trends in different regions over the past decade. How will policy solutions differ by region?
+
+The repo is designed to support two core deliverables:
+
+- A government-ready **policy memo** (8–10 pages).
+- A **12–15 slide presentation** for Saudi decision makers.
+
+---
+
+## 1. Objectives
+
+This project aims to:
+
+- Describe **levels and trends** of road crashes, injuries, and fatalities across Saudi regions over the past decade.
+- Compute **key indicators** (e.g., crashes and fatalities per 100,000 population, per registered vehicle, by road type).
+- Identify **regional patterns and risk factors** (infrastructure, enforcement, driver behaviour, environment).
+- Compare and assess **existing policies and interventions** (e.g., speed cameras, black-spot treatment, awareness campaigns).
+- Propose **region-specific policy options** for transportation safety and infrastructure optimization.
+- Provide evidence-based inputs to Vision 2030 goals related to **quality of life, transport & logistics, and health**.
+
+---
+
+## 2. Repository Structure
+
+Planned structure (can be adjusted as the project evolves):
+
+```text
+ksa-transport-safety-capstone/
+├─ data_raw/        # Original datasets (read-only: csv, xlsx, shapefiles, etc.)
+├─ data_clean/      # Cleaned & transformed datasets ready for analysis
+├─ notebooks/       # Jupyter notebooks for EDA, modelling, and visualization
+├─ sql/             # SQL scripts for data exploration and aggregation
+├─ src/             # Reusable Python modules (ETL, analysis, plotting)
+├─ figures/         # Exported charts, maps, and tables for memo and slides
+├─ docs/            # Draft policy memo, slide outlines, and notes
+└─ README.md
